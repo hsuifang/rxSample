@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.0.1/Rx.js"></script>
+    <style>
+      html,
+      body {
+        height: 100%;
+        background-color: tomato;
+        position: relative;
+      }
+
+      #drag {
+        position: absolute;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+        cursor: all-scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="drag"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
